@@ -1,0 +1,1 @@
+This component searches the database and delivers it's results to the user.

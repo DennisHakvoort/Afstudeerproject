@@ -1,0 +1,8 @@
+beautifulsoup4==4.9.3
+fastapi==0.63.0
+psycopg2-binary==2.8.6
+pytest==6.2.1
+pytest-mock==3.5.1
+rank-bm25==0.2.1
+spacy==2.3.5
+uvicorn==0.13.3

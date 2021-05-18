@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5F5;
+}
+
+.search-bar {
+    display: flex;
+    width: 400px;
+    margin: 10px;
+}
+
+.search-bar input {
+    padding: 6px 6px 6px 11px;
+    font-size: 17px;
+    border: none;
+    flex: 1;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #AAAAAA;
+}
+
+.search-bar button {
+    float: right;
+    padding: 0 27px;
+    margin-left: 15px;
+    background: #26C485;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #AAAAAA;
+    color: white;
+}
+
+.search-bar button:hover {
+    background: #21AB74;
+}
+
+.content-box {
+    display: block;
+    overflow: scroll;
+    max-height: 700px;
+}
+
+.search-result {
+    display: block;
+    box-shadow: 2px 2px 4px #AAAAAA;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.search-result h1 {
+    color: #26C485;
+    font-size: 17px;
+    margin: 4px 0;
+}
+
+.search-result p {
+    margin: 4px 0;
+    color: #222222;
+}
+
+
+.search-result .description {
+    font-size: 14px;
+}
+
+.search-result .space {
+    font-size: 12px;
+    color: #888888;
+}
+
+.error {
+    display: block;
+    box-shadow: 2px 2px 4px #AAAAAA;
+    margin: 10px;
+    color: white;
+    background-color: #E56399;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.settings-button {
+    margin: 4px 10px;
+    size: 7px;
+    color: #888888;
+    float: right;
+    cursor: pointer;
+}
+
+.back-button {
+    margin: 10px;
+    font-size: 20px;
+    color: #26C485;
+    cursor: pointer;
+}
+
+.settings-bar {
+    display: flex;
+}
+
+.settings-bar input {
+    padding: 6px 6px 6px 11px;
+    font-size: 17px;
+    border: none;
+    flex: 1;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #AAAAAA;
+}
+
+.settings-bar button {
+    float: right;
+    padding: 0 27px;
+    margin-left: 15px;
+    background: #26C485;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #AAAAAA;
+    color: white;
+
+}
+
+.settings-bar button:hover {
+    background: #21AB74;
+}
+
+.setting {
+    width: 400px;
+    margin: 10px;
+}
+
+.setting p {
+    margin: 5px 5px 5px 11px;
+    font-size: 14px;
+}

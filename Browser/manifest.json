@@ -1,0 +1,11 @@
+{
+  "name": "Kitea",
+  "version": "0.1",
+  "description": "The broser plugin to search for your favorite Confluence pages.",
+  "permissions": ["storage"],
+  "author": "Dennis Hakvoort",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
